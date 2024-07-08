@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37153E1D23C5A94A00170819 /* FoundationSimulation_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37153E1C23C5A94A00170819 /* FoundationSimulation_Live.cpp */; };
+		37ABEC6522A7E2DC00332267 /* FacialRegions_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37ABEC6322A7E2DC00332267 /* FacialRegions_Live.cpp */; };
+		37B454792238CC8100533C35 /* Utilities_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454602238CC8100533C35 /* Utilities_Live.cpp */; };
+		37B4547A2238CC8100533C35 /* MakeupFeatures_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454632238CC8100533C35 /* MakeupFeatures_Live.cpp */; };
+		37B4547B2238CC8100533C35 /* BeautyFace_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454642238CC8100533C35 /* BeautyFace_Live.cpp */; };
+		37B4547C2238CC8100533C35 /* Redness_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454682238CC8100533C35 /* Redness_Live.cpp */; };
+		37B4547D2238CC8100533C35 /* TeethWhitening_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454692238CC8100533C35 /* TeethWhitening_Live.cpp */; };
+		37B4547E2238CC8100533C35 /* BlueLens_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B4546D2238CC8100533C35 /* BlueLens_Live.cpp */; };
+		37B4547F2238CC8100533C35 /* HairDetection_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454702238CC8100533C35 /* HairDetection_Live.cpp */; };
+		37B454802238CC8100533C35 /* HairFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454712238CC8100533C35 /* HairFeatures.cpp */; };
+		37B454812238CC8100533C35 /* ImageTransforms_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454742238CC8100533C35 /* ImageTransforms_Live.cpp */; };
+		37B454822238CC8100533C35 /* AreaMorphs_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454762238CC8100533C35 /* AreaMorphs_Live.cpp */; };
+		37B454832238CC8100533C35 /* OverlayMorphs_Live.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37B454782238CC8100533C35 /* OverlayMorphs_Live.cpp */; };
+		982DB6092BDD86C40002568F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982DB6082BDD86C40002568F /* opencv2.framework */; };
+		982DB60F2BDD8AA90002568F /* libLandmark_Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 982DB60E2BDD8AA90002568F /* libLandmark_Live.a */; };
+		AC2EEFEB205789C9002985FC /* LivefeedFeatures.mm in Sources */ = {isa = PBXBuildFile; fileRef = AC2EEFEA205789C9002985FC /* LivefeedFeatures.mm */; };
+		AC2EEFEC205789C9002985FC /* LivefeedFeatures.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC2EEFE9205789C9002985FC /* LivefeedFeatures.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC2EEFE4205789C9002985FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AC2EEFEC205789C9002985FC /* LivefeedFeatures.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37153E1B23C5A94A00170819 /* FoundationSimulation_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationSimulation_Live.h; sourceTree = "<group>"; };
+		37153E1C23C5A94A00170819 /* FoundationSimulation_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoundationSimulation_Live.cpp; sourceTree = "<group>"; };
+		37ABEC6322A7E2DC00332267 /* FacialRegions_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FacialRegions_Live.cpp; path = LivefeedFeatures/LiveFeed_Native/Skincare/FacialRegions_Live.cpp; sourceTree = SOURCE_ROOT; };
+		37ABEC6422A7E2DC00332267 /* FacialRegions_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacialRegions_Live.h; path = LivefeedFeatures/LiveFeed_Native/Skincare/FacialRegions_Live.h; sourceTree = SOURCE_ROOT; };
+		37B454602238CC8100533C35 /* Utilities_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities_Live.cpp; sourceTree = "<group>"; };
+		37B454612238CC8100533C35 /* Utilities_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities_Live.h; sourceTree = "<group>"; };
+		37B454632238CC8100533C35 /* MakeupFeatures_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MakeupFeatures_Live.cpp; sourceTree = "<group>"; };
+		37B454642238CC8100533C35 /* BeautyFace_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeautyFace_Live.cpp; sourceTree = "<group>"; };
+		37B454652238CC8100533C35 /* MakeupFeatures_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeupFeatures_Live.h; sourceTree = "<group>"; };
+		37B454662238CC8100533C35 /* BeautyFace_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyFace_Live.h; sourceTree = "<group>"; };
+		37B454682238CC8100533C35 /* Redness_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Redness_Live.cpp; sourceTree = "<group>"; };
+		37B454692238CC8100533C35 /* TeethWhitening_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TeethWhitening_Live.cpp; sourceTree = "<group>"; };
+		37B4546A2238CC8100533C35 /* TeethWhitening_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeethWhitening_Live.h; sourceTree = "<group>"; };
+		37B4546B2238CC8100533C35 /* HairFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairFeatures.h; sourceTree = "<group>"; };
+		37B4546C2238CC8100533C35 /* BlueLens_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueLens_Live.h; sourceTree = "<group>"; };
+		37B4546D2238CC8100533C35 /* BlueLens_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlueLens_Live.cpp; sourceTree = "<group>"; };
+		37B4546E2238CC8100533C35 /* HairDetection_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairDetection_Live.h; sourceTree = "<group>"; };
+		37B4546F2238CC8100533C35 /* Redness_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Redness_Live.h; sourceTree = "<group>"; };
+		37B454702238CC8100533C35 /* HairDetection_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HairDetection_Live.cpp; sourceTree = "<group>"; };
+		37B454712238CC8100533C35 /* HairFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HairFeatures.cpp; sourceTree = "<group>"; };
+		37B454732238CC8100533C35 /* AreaMorphs_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaMorphs_Live.h; sourceTree = "<group>"; };
+		37B454742238CC8100533C35 /* ImageTransforms_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageTransforms_Live.cpp; sourceTree = "<group>"; };
+		37B454752238CC8100533C35 /* OverlayMorphs_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayMorphs_Live.h; sourceTree = "<group>"; };
+		37B454762238CC8100533C35 /* AreaMorphs_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AreaMorphs_Live.cpp; sourceTree = "<group>"; };
+		37B454772238CC8100533C35 /* ImageTransforms_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransforms_Live.h; sourceTree = "<group>"; };
+		37B454782238CC8100533C35 /* OverlayMorphs_Live.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverlayMorphs_Live.cpp; sourceTree = "<group>"; };
+		982DB6082BDD86C40002568F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = LivefeedFeatures/Frameworks/opencv2.framework; sourceTree = "<group>"; };
+		982DB60D2BDD8A310002568F /* libLivefeedFeatures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLivefeedFeatures.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		982DB60E2BDD8AA90002568F /* libLandmark_Live.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLandmark_Live.a; path = LivefeedFeatures/Frameworks/libLandmark_Live.a; sourceTree = "<group>"; };
+		982DB6102BDD8B090002568F /* Landmark_Live.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Landmark_Live.h; path = LivefeedFeatures/Frameworks/Landmark_Live.h; sourceTree = "<group>"; };
+		AC2EEFE9205789C9002985FC /* LivefeedFeatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LivefeedFeatures.h; sourceTree = "<group>"; };
+		AC2EEFEA205789C9002985FC /* LivefeedFeatures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LivefeedFeatures.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2EEFE3205789C9002985FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982DB6092BDD86C40002568F /* opencv2.framework in Frameworks */,
+				982DB60F2BDD8AA90002568F /* libLandmark_Live.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B454622238CC8100533C35 /* Beauty */ = {
+			isa = PBXGroup;
+			children = (
+				37153E1C23C5A94A00170819 /* FoundationSimulation_Live.cpp */,
+				37153E1B23C5A94A00170819 /* FoundationSimulation_Live.h */,
+				37B454632238CC8100533C35 /* MakeupFeatures_Live.cpp */,
+				37B454642238CC8100533C35 /* BeautyFace_Live.cpp */,
+				37B454652238CC8100533C35 /* MakeupFeatures_Live.h */,
+				37B454662238CC8100533C35 /* BeautyFace_Live.h */,
+			);
+			path = Beauty;
+			sourceTree = "<group>";
+		};
+		37B454672238CC8100533C35 /* Skincare */ = {
+			isa = PBXGroup;
+			children = (
+				37B454682238CC8100533C35 /* Redness_Live.cpp */,
+				37B454692238CC8100533C35 /* TeethWhitening_Live.cpp */,
+				37ABEC6322A7E2DC00332267 /* FacialRegions_Live.cpp */,
+				37ABEC6422A7E2DC00332267 /* FacialRegions_Live.h */,
+				37B4546A2238CC8100533C35 /* TeethWhitening_Live.h */,
+				37B4546B2238CC8100533C35 /* HairFeatures.h */,
+				37B4546C2238CC8100533C35 /* BlueLens_Live.h */,
+				37B4546D2238CC8100533C35 /* BlueLens_Live.cpp */,
+				37B4546E2238CC8100533C35 /* HairDetection_Live.h */,
+				37B4546F2238CC8100533C35 /* Redness_Live.h */,
+				37B454702238CC8100533C35 /* HairDetection_Live.cpp */,
+				37B454712238CC8100533C35 /* HairFeatures.cpp */,
+			);
+			path = Skincare;
+			sourceTree = "<group>";
+		};
+		37B454722238CC8100533C35 /* Morphing */ = {
+			isa = PBXGroup;
+			children = (
+				37B454732238CC8100533C35 /* AreaMorphs_Live.h */,
+				37B454742238CC8100533C35 /* ImageTransforms_Live.cpp */,
+				37B454752238CC8100533C35 /* OverlayMorphs_Live.h */,
+				37B454762238CC8100533C35 /* AreaMorphs_Live.cpp */,
+				37B454772238CC8100533C35 /* ImageTransforms_Live.h */,
+				37B454782238CC8100533C35 /* OverlayMorphs_Live.cpp */,
+			);
+			path = Morphing;
+			sourceTree = "<group>";
+		};
+		982DB6022BDD85310002568F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				982DB6102BDD8B090002568F /* Landmark_Live.h */,
+				982DB60E2BDD8AA90002568F /* libLandmark_Live.a */,
+				982DB6082BDD86C40002568F /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC2EEFDD205789C9002985FC = {
+			isa = PBXGroup;
+			children = (
+				AC2EEFE8205789C9002985FC /* LivefeedFeatures */,
+				982DB6022BDD85310002568F /* Frameworks */,
+				982DB60D2BDD8A310002568F /* libLivefeedFeatures.a */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2EEFE8205789C9002985FC /* LivefeedFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				AC2EEFF520578A69002985FC /* LiveFeed_Native */,
+				AC2EEFE9205789C9002985FC /* LivefeedFeatures.h */,
+				AC2EEFEA205789C9002985FC /* LivefeedFeatures.mm */,
+			);
+			path = LivefeedFeatures;
+			sourceTree = "<group>";
+		};
+		AC2EEFF520578A69002985FC /* LiveFeed_Native */ = {
+			isa = PBXGroup;
+			children = (
+				37B454622238CC8100533C35 /* Beauty */,
+				37B454722238CC8100533C35 /* Morphing */,
+				37B454672238CC8100533C35 /* Skincare */,
+				37B454602238CC8100533C35 /* Utilities_Live.cpp */,
+				37B454612238CC8100533C35 /* Utilities_Live.h */,
+			);
+			path = LiveFeed_Native;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2EEFE5205789C9002985FC /* LivefeedFeatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2EEFEF205789C9002985FC /* Build configuration list for PBXNativeTarget "LivefeedFeatures" */;
+			buildPhases = (
+				AC2EEFE2205789C9002985FC /* Sources */,
+				AC2EEFE3205789C9002985FC /* Frameworks */,
+				AC2EEFE4205789C9002985FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivefeedFeatures;
+			productName = Makeupfeatures_Live;
+			productReference = 982DB60D2BDD8A310002568F /* libLivefeedFeatures.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2EEFDE205789C9002985FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mac5Dev1;
+				TargetAttributes = {
+					AC2EEFE5205789C9002985FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC2EEFE1205789C9002985FC /* Build configuration list for PBXProject "LivefeedFeatures" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC2EEFDD205789C9002985FC;
+			productRefGroup = AC2EEFDD205789C9002985FC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2EEFE5205789C9002985FC /* LivefeedFeatures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2EEFE2205789C9002985FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B4547A2238CC8100533C35 /* MakeupFeatures_Live.cpp in Sources */,
+				37B4547C2238CC8100533C35 /* Redness_Live.cpp in Sources */,
+				37B454832238CC8100533C35 /* OverlayMorphs_Live.cpp in Sources */,
+				AC2EEFEB205789C9002985FC /* LivefeedFeatures.mm in Sources */,
+				37B454802238CC8100533C35 /* HairFeatures.cpp in Sources */,
+				37B454822238CC8100533C35 /* AreaMorphs_Live.cpp in Sources */,
+				37153E1D23C5A94A00170819 /* FoundationSimulation_Live.cpp in Sources */,
+				37B4547E2238CC8100533C35 /* BlueLens_Live.cpp in Sources */,
+				37B454792238CC8100533C35 /* Utilities_Live.cpp in Sources */,
+				37B454812238CC8100533C35 /* ImageTransforms_Live.cpp in Sources */,
+				37B4547D2238CC8100533C35 /* TeethWhitening_Live.cpp in Sources */,
+				37B4547F2238CC8100533C35 /* HairDetection_Live.cpp in Sources */,
+				37B4547B2238CC8100533C35 /* BeautyFace_Live.cpp in Sources */,
+				37ABEC6522A7E2DC00332267 /* FacialRegions_Live.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC2EEFED205789C9002985FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC2EEFEE205789C9002985FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2EEFF0205789C9002985FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MCRGC4VX38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LivefeedFeatures/Frameworks",
+					"\"$(SRCROOT)/LivefeedFeatures/Frameworks\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/LivefeedFeatures/Frameworks",
+					"\"$(SRCROOT)/LivefeedFeatures/Frameworks/\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/include/Landmark_Live/Landmark_Live.h\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/include/Landmark_Live/Landmark_Live.h\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LivefeedFeatures/Frameworks",
+					"\"$(SRCROOT)/LivefeedFeatures/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/libLandmark_Live.a\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/LivefeedFeatures/Frameworks \"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/include/Landmark_Live/Landmark_Live.h\"";
+			};
+			name = Debug;
+		};
+		AC2EEFF1205789C9002985FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MCRGC4VX38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LivefeedFeatures/Frameworks",
+					"\"$(SRCROOT)/LivefeedFeatures/Frameworks\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/LivefeedFeatures/Frameworks",
+					"\"$(SRCROOT)/LivefeedFeatures/Frameworks/\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/include/Landmark_Live/Landmark_Live.h\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/include/Landmark_Live/Landmark_Live.h\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LivefeedFeatures/Frameworks",
+					"\"$(SRCROOT)/LivefeedFeatures/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/libLandmark_Live.a\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/LivefeedFeatures/Frameworks \"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Landmark_Live-daxoigsmdtteekgsybjhmsxcamnq/Build/Products/Release-iphoneos/include/Landmark_Live/Landmark_Live.h\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2EEFE1205789C9002985FC /* Build configuration list for PBXProject "LivefeedFeatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2EEFED205789C9002985FC /* Debug */,
+				AC2EEFEE205789C9002985FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2EEFEF205789C9002985FC /* Build configuration list for PBXNativeTarget "LivefeedFeatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2EEFF0205789C9002985FC /* Debug */,
+				AC2EEFF1205789C9002985FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2EEFDE205789C9002985FC /* Project object */;
+}
